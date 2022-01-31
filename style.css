@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.cabecalho {
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+display: flex;
+background-color: midnightblue;
+color: white;
+}
+
+@font-face {
+    font-family: 'age', Verdana, Geneva, Tahoma, sans-serif;
+    src: url('src/fonts/age.ttf');
+}
+
+.cabecalho #titulo {
+font-family: 'age';
+font-weight: 100;
+font-size: 24px;
+}
+
+.cabecalho #logo{
+    padding: 10px;
+    width: 100px;
+    margin-right: 10px;
+}
+
+
+img{
+    width: 100%;
+}
+
+.quadro-uni {
+    position: absolute;    
+    z-index: -1;
+    max-width: 1024px;
+
+}
+
+.quadro-foto {
+    position: absolute;
+    max-width: 110px;
+}
+
+.painel {
+    height: 135px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    z-index: -2;
+}
+
+
+@media (max-width: 800px){
+    .quadro-foto{
+        max-width: 75px;
+    }
+
+    .painel{
+        height: 80px;
+    }
+
+}
+
+@media (max-width: 500px){
+    .quadro-foto{
+        max-width: 45px;
+    }
+
+    .painel{
+        height: 50px;
+    }
+
+}
+
+@media (max-width: 400px){
+    .quadro-foto{
+        max-width: 35px;
+    }
+
+    .painel{
+        height: 40px;
+    }
+
+}
+
+.barra{
+    height: 5px;
+    background-color: rgb(152, 167, 240);
+}
+
+
+#ashram{
+    width: 200px;
+}
+
+
+nav{
+    background-color: rgb(4, 29, 106);
+    height: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex   ;
+    color: rgb(167, 167, 247);
+}
+
+
+
+i{
+    padding: 10px;
+    background-color: midnightblue;
+}
+
+body{
+    background-color: black;
+}
+
+#title{
+    color:white;
+    padding: 25px;
+    text-align: justify;
+    background-color: black;
+}
+
+
+
+#img-div{
+    display: inline-block;
+    justify-content: center;
+width: fit-content;
+    background-color: black;
+    width: 100vw;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+}
+
