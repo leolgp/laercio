@@ -67,6 +67,17 @@ img{
 }
 
 @media (max-width: 500px){
+    .cabecalho .titulo{
+        font-size: 16px;
+        margin: 0;
+
+        }
+
+    .cabecalho{
+        text-align: center;
+        display: block;
+    }
+
     .quadro-foto{
         max-width: 45px;
     }
@@ -78,6 +89,16 @@ img{
 }
 
 @media (max-width: 400px){
+    .cabecalho .titulo{
+        font-size: 16px;
+        margin: 0;
+        }
+
+    .cabecalho{
+        text-align: center;
+        display: block;
+    }
+
     .quadro-foto{
         max-width: 35px;
     }
